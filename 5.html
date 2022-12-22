@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script>
+
+function na(){
+confirm("请输入一个数")
+}
+function me(){
+var num =	document.getElementById("xm").value
+if(num==""){
+confirm("你输入的数字是？")
+}
+else{confirm(num);
+}
+}
+</script>
+</head>
+
+<body>
+<div>
+<img src="1.jfif" width="300px" height="300px">
+</div>
+<input type="text" id="xm" placeholder="请输入数字" onchange="na()" onblur="me()">
+</body>
+
+</html>
